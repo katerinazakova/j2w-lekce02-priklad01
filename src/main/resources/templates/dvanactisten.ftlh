@@ -1,0 +1,24 @@
+[#ftl]
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Hod dvanáctistěn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+<div>
+    <div>
+        <img class="kostka" src="${kostka1}" />
+        <img class="kostka" src="${kostka2}" />
+
+    </div>
+    <div>Padlo číslo: <span> ${cislo}</span></div>
+</div>
+</body>
+</html>

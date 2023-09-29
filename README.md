@@ -6,7 +6,7 @@ zdrojích v adresáři `static/images`.
 
 1. Udělej fork zdrojového repository do svého účtu na GitHubu.
 1. Naklonuj si repository **ze svého účtu** na GitHubu na lokální počítač.
-1. Vytvoř kontrolér – třídu `cz.czechitas.java2webapps.lekce2.controller.MainController`.
+1. Vytvoř kontrolér – třídu `cz.czechitas.java2webapps.lekce2.cz.czechitas.java2webapps.lekce2.controller.MainController`.
 1. V kontroléru bude jedna metoda, která bude vracet `ModelAndView`. Jako view bude použito `kostka`. Metoda bude navázána na cestu `/`.
 1. V této metodě se získá pomocí `Random.nextInt(6) + 1` náhodné číslo od 1 do 6.
 1. Náhodné číslo vlož do modelu pod názvem `cislo`.
